@@ -55,3 +55,23 @@ p{
  1. Top Bar style start
 ================================================================================
 */
+
+/*back to top start*/
+/*.back_to_top i.fa {
+    color: var(--theme-color);
+    font-size: 35px;
+    background: #ccc;
+    padding: 20px;
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    z-index: 9999;
+    border-radius: 2px;
+}
+
+i.fa.fa-arrow-up:hover {
+    cursor: pointer;
+    transform: rotateZ(720deg);
+    transition: all 0.4s;
+}*/
+/*back to top end*/
